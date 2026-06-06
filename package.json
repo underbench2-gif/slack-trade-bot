@@ -1,0 +1,27 @@
+{
+  "name": "slack-trade-bot",
+  "version": "1.0.0",
+  "description": "A Slack bot that provides real-time market alerts and trading information.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@slack/web-api": "^7.8.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "keywords": [
+    "slack",
+    "trading",
+    "bot",
+    "market",
+    "alerts"
+  ],
+  "author": "underbench2-gif",
+  "license": "MIT"
+}
